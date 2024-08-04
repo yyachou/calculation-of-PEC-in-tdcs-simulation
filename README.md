@@ -1,8 +1,5 @@
 # calculation-of-PEC-in-tdcs-simulation
 This Project models transcranial Direct Current Stimulation (tDCS) using SimNIBS to simulate electric field distributions in various head models. It correlates simulation outcomes with clinical data to identify brain regions linked to optimal results. The project uses Python for simulation, data processing, and visualization.
-# tDCS Simulation Project
-
-This project simulates tDCS montage using SimNIBS with different head models and correlates the simulation outcomes with clinical outcomes to determine the brain regions associated with the best outcomes.
 
 ## Prerequisites
 
