@@ -33,9 +33,9 @@ Use the SimNIBS documentation to install the latest SimNIBS environment file: ht
 
 ###  Project Structure
 
-1. simulate_tdcs.py: Main script to run tDCS simulations.
-2. create_matrice_totale.py: Script to create the total matrix from simulation results.
-3. correlate_results.py: Script to correlate simulation outcomes with clinical outcomes.
+1. simulate_tdcs.py: Main script to run tDCS simulations using CSV files that contain tDCS montages with a well know order.
+2. create_matrice_totale.py: Script to create the total matrix from simulation results, maintaining the same order of the tDCS montages.
+3. correlate_results.py: Script to correlate simulation outcomes (electrical field) with clinical outcomes (effect size or any clinical measurement) of each tDCS montage, maintaining the same order.
 4. visualize_results.py: Script to visualize PEC values on the brain mesh.
 5. data/: Directory containing input CSV files and other data.
 6. results/: Directory to save simulation and correlation results.
